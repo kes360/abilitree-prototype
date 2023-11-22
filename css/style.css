@@ -1,0 +1,12 @@
+:root {
+    --zBase: 100;
+    --zHeader: var(--zBase) + 10;
+    --zFooter:  var(--zHeader);
+    --zDetail: var(--zHeader) + 10;
+}
+
+#icons {
+    display: none;
+    width: 0;
+    height: 0;
+}
